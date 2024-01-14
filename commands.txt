@@ -1,0 +1,4 @@
+pipenv install django==2.1     
+django-admin startproject FlickList .
+python manage.py runserver     
+python manage.py startapp movies 

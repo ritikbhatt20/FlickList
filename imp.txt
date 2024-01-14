@@ -1,0 +1,5 @@
+Django- Fast, secure and scalable applications
+In django, a project can contain multiple apps
+These apps dont represent whole application,  they represent a small part of the application that is focused on one functional area..
+
+When we send an http req to an endpoint, django is going to take this request, pass it to a view fn.. that view fn is going to take our req and return a response which can be in form of text, html, xml, json
