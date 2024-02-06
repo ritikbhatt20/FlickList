@@ -25,7 +25,7 @@ SECRET_KEY = '1^7j55#c9fxd52--t^#4t-sx#7nl8g&ix9b9or0z8cv$p#6xiz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'movies.apps.MoviesConfig'
 ]
 
 MIDDLEWARE = [
@@ -49,7 +50,11 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'FlickList.urls'
+ROOT_URLCONF = 'FlickList.urls'  
+
+# AUTHENTICATION_BACKENDS = (
+#     ('django.contrib.auth.backends.ModelBackend'),
+# )
 
 TEMPLATES = [
     {
@@ -101,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-# https://docs.djangoproject.com/en/2.1/topics/i18n/
+# https://docs.djangoproject.com/en/2.1/topics/i18n/  
 
 LANGUAGE_CODE = 'en-us'
 
