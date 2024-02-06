@@ -2,3 +2,7 @@ pipenv install django==2.1
 django-admin startproject FlickList .
 python manage.py runserver     
 python manage.py startapp movies 
+python manage.py makemigrations
+python manage.py migrate  
+python manage.py sqlmigrate movies 0001 to find the sql statement that is sent to the database
+python manage.py createsuperuser  
