@@ -3,3 +3,4 @@ In django, a project can contain multiple apps
 These apps dont represent whole application,  they represent a small part of the application that is focused on one functional area..
 
 When we send an http req to an endpoint, django is going to take this request, pass it to a view fn.. that view fn is going to take our req and return a response which can be in form of text, html, xml, json
+The next step is to allow the staff at our imaginary movie store to populate the list of movies, we need to create an administration panel for that..

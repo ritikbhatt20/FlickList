@@ -58,9 +58,9 @@ ROOT_URLCONF = 'FlickList.urls'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
+        'BACKEND': 'django.template.backends.django.DjangoTemplates', #this is the engine that is running the backend
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],  #directories in which django will look for templates
+        'APP_DIRS': True,  #this is telling django to look for templates folder in installed apps
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
