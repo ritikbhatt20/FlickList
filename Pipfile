@@ -8,6 +8,7 @@ django = "==2.1.7"
 pylint = "*"
 gunicorn = "*"
 django-tastypie = "*"
+whitenoise = "*"
 
 [dev-packages]
 
