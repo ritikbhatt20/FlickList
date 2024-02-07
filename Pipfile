@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 django = "==2.1.7"
 pylint = "*"
+gunicorn = "*"
+django-tastypie = "*"
 
 [dev-packages]
 
