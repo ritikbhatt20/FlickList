@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: FlickList
+    runtime: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn FlickList.wsgi:application"
+    
