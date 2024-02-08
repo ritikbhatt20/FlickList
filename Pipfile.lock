@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ccf9b5731865308cd9cb119136bc747d085685669428939b051573dc798db749"
+            "sha256": "c6d4ff604a89d808ac817552bf6e0f9f351fe3c68bdbe05285335e519e4fb7cc"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,12 @@
         ]
     },
     "default": {
+        "antiorm": {
+            "hashes": [
+                "sha256:96eb1841ce5163db4cf1dc13f4499ec2d7cffc190cf724b78ffdd3e6b7c4ff93"
+            ],
+            "version": "==1.2.1"
+        },
         "astroid": {
             "hashes": [
                 "sha256:4148645659b08b70d72460ed1921158027a9e53ae8b7234149b1400eddacbb93",
@@ -31,6 +37,19 @@
             ],
             "markers": "sys_platform == 'win32'",
             "version": "==0.4.6"
+        },
+        "db": {
+            "hashes": [
+                "sha256:980e772f15c1161d3b287ffec4f144e40961b0b3e6d5102809577870bf6c5808"
+            ],
+            "version": "==0.1.1"
+        },
+        "db-sqlite3": {
+            "hashes": [
+                "sha256:4dd410aa28a2c5b66de477f9dc62f523133217dd31c7ed7eb085214bea148db9"
+            ],
+            "index": "pypi",
+            "version": "==0.0.1"
         },
         "dill": {
             "hashes": [

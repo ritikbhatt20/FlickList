@@ -9,6 +9,7 @@ pylint = "*"
 gunicorn = "*"
 django-tastypie = "*"
 whitenoise = "*"
+db-sqlite3 = "*"
 
 [dev-packages]
 
