@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "FlickList/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "FlickList/wsgi.py"
+      }
+    ],
+    "buildCommand": "python manage.py migrate && python manage.py collectstatic --no-input && gunicorn FlickList.wsgi:app --log-file -"
+  }
