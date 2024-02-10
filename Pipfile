@@ -10,6 +10,7 @@ gunicorn = "*"
 django-tastypie = "*"
 whitenoise = "*"
 db-sqlite3 = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
